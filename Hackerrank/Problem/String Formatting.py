@@ -3,4 +3,4 @@ def print_formatted(n: int) -> int:
         pad = n.bit_length()
         print(f'{i:{pad}d} {i:{pad}o} {i:{pad}X} {i:{pad}b}')
 
-print_formatted(17)
+print_formatted(15)
